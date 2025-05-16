@@ -1,8 +1,6 @@
 package dto
 
-import (
-	"Yuk-Ujian/internal/dto/pagedto"
-)
+import "DRX_Test/internal/dto/pagedto"
 
 type ErrorResponse struct {
 	Message string      `json:"message"`

@@ -1,12 +1,12 @@
 package server
 
 import (
-	"Yuk-Ujian/internal/config"
-	"Yuk-Ujian/internal/delivery/http/middleware"
-	"Yuk-Ujian/internal/delivery/http/route"
-	"Yuk-Ujian/internal/pkg/database"
-	"Yuk-Ujian/internal/pkg/logger"
-	"Yuk-Ujian/internal/provider"
+	"DRX_Test/internal/config"
+	"DRX_Test/internal/delivery/http/middleware"
+	"DRX_Test/internal/delivery/http/route"
+	"DRX_Test/internal/pkg/database"
+	"DRX_Test/internal/pkg/logger"
+	"DRX_Test/internal/provider"
 	"context"
 	"errors"
 	"fmt"

@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"Yuk-Ujian/internal/dto"
+	"DRX_Test/internal/dto"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

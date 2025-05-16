@@ -1,12 +1,12 @@
 package usecase
 
 import (
-	"Yuk-Ujian/internal/dto/pagedto"
-	"Yuk-Ujian/internal/dto/productdto"
-	"Yuk-Ujian/internal/mapper"
-	"Yuk-Ujian/internal/pkg/apperror"
-	"Yuk-Ujian/internal/pkg/apputils"
-	"Yuk-Ujian/internal/repository"
+	"DRX_Test/internal/dto/pagedto"
+	"DRX_Test/internal/dto/productdto"
+	"DRX_Test/internal/mapper"
+	"DRX_Test/internal/pkg/apperror"
+	"DRX_Test/internal/pkg/apputils"
+	"DRX_Test/internal/repository"
 	"context"
 )
 

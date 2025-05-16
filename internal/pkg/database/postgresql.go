@@ -1,8 +1,8 @@
 package database
 
 import (
-	"Yuk-Ujian/internal/config"
-	"Yuk-Ujian/internal/pkg/logger"
+	"DRX_Test/internal/config"
+	"DRX_Test/internal/pkg/logger"
 	"database/sql"
 	"fmt"
 	"time"

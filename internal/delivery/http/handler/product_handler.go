@@ -1,11 +1,11 @@
 package handler
 
 import (
-	"Yuk-Ujian/internal/constant"
-	"Yuk-Ujian/internal/dto/pagedto"
-	"Yuk-Ujian/internal/dto/productdto"
-	"Yuk-Ujian/internal/pkg/ginutils"
-	"Yuk-Ujian/internal/usecase"
+	"DRX_Test/internal/constant"
+	"DRX_Test/internal/dto/pagedto"
+	"DRX_Test/internal/dto/productdto"
+	"DRX_Test/internal/pkg/ginutils"
+	"DRX_Test/internal/usecase"
 
 	"github.com/gin-gonic/gin"
 )

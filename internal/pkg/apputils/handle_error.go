@@ -1,6 +1,6 @@
 package apputils
 
-import "Yuk-Ujian/internal/pkg/apperror"
+import "DRX_Test/internal/pkg/apperror"
 
 func HandleError(err error, appError *apperror.AppError) error {
 	if err == nil {

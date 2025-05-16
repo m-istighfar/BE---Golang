@@ -1,7 +1,7 @@
 package apperror
 
 import (
-	"Yuk-Ujian/internal/constant"
+	"DRX_Test/internal/constant"
 	"net/http"
 )
 

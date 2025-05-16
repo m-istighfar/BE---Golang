@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"Yuk-Ujian/internal/config"
-	"Yuk-Ujian/internal/usecase"
+	"DRX_Test/internal/config"
+	"DRX_Test/internal/usecase"
 )
 
 type Usecases struct {

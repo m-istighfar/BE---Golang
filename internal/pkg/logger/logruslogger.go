@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"Yuk-Ujian/internal/config"
+	"DRX_Test/internal/config"
 	"io"
 	"os"
 	"time"

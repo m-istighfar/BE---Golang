@@ -1,4 +1,4 @@
-module Yuk-Ujian
+module DRX_Test
 
 go 1.19
 

@@ -1,7 +1,7 @@
 package route
 
 import (
-	"Yuk-Ujian/internal/provider"
+	"DRX_Test/internal/provider"
 
 	"github.com/gin-gonic/gin"
 )

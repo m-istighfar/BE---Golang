@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Yuk-Ujian/internal/config"
-	"Yuk-Ujian/internal/delivery/http/server"
-	"Yuk-Ujian/internal/pkg/logger"
+	"DRX_Test/internal/config"
+	"DRX_Test/internal/delivery/http/server"
+	"DRX_Test/internal/pkg/logger"
 )
 
 func main() {

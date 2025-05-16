@@ -1,6 +1,6 @@
 package provider
 
-import "Yuk-Ujian/internal/delivery/http/handler"
+import "DRX_Test/internal/delivery/http/handler"
 
 type Handlers struct {
 	Root    *handler.AppHandler

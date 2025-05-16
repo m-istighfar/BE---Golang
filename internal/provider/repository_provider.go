@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"Yuk-Ujian/internal/pkg/database"
-	"Yuk-Ujian/internal/repository"
+	"DRX_Test/internal/pkg/database"
+	"DRX_Test/internal/repository"
 )
 
 type Repositories struct {

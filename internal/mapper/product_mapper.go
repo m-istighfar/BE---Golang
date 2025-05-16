@@ -1,8 +1,8 @@
 package mapper
 
 import (
-	"Yuk-Ujian/internal/dto/productdto"
-	"Yuk-Ujian/internal/entity"
+	"DRX_Test/internal/dto/productdto"
+	"DRX_Test/internal/entity"
 )
 
 func ToResponse(p *entity.Product) productdto.ProductResponse {

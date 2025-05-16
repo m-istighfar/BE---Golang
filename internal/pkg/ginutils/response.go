@@ -1,9 +1,9 @@
 package ginutils
 
 import (
-	"Yuk-Ujian/internal/constant"
-	"Yuk-Ujian/internal/dto"
-	"Yuk-Ujian/internal/dto/pagedto"
+	"DRX_Test/internal/constant"
+	"DRX_Test/internal/dto"
+	"DRX_Test/internal/dto/pagedto"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

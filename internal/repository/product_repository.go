@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"Yuk-Ujian/internal/dto/pagedto"
-	"Yuk-Ujian/internal/entity"
-	"Yuk-Ujian/internal/pkg/apputils"
-	"Yuk-Ujian/internal/pkg/database"
+	"DRX_Test/internal/dto/pagedto"
+	"DRX_Test/internal/entity"
+	"DRX_Test/internal/pkg/apputils"
+	"DRX_Test/internal/pkg/database"
 	"context"
 	"fmt"
 	"strings"

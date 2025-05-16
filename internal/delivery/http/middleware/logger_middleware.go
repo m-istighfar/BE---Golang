@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"Yuk-Ujian/internal/pkg/apperror"
-	"Yuk-Ujian/internal/pkg/logger"
+	"DRX_Test/internal/pkg/apperror"
+	"DRX_Test/internal/pkg/logger"
 	"encoding/json"
 	"errors"
 	"net/http"
