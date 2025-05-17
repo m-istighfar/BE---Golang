@@ -36,3 +36,29 @@ schema:
 
 run:
 	export APP_ENVIRONMENT=development && go run ./cmd/api/
+
+
+.PHONY: generate-mocks
+
+generate-mocks:
+	mockery --name ProductUsecase --dir internal/usecase --output testing/mocks
+	mockery --name ProductRepository --dir internal/repository --output testing/mocks
+
+.PHONY: test test-unit test-all test-product-handler test-product-usecase test-product-repository
+
+test-all: test-unit test-product-handler test-product-usecase test-product-repository
+	@echo "All tests completed"
+
+test: test-all
+
+test-unit:
+	go test -v ./testing/unit/...
+
+test-product-handler:
+	go test -v ./testing/unit/product_handler_test.go
+
+test-product-usecase:
+	go test -v ./testing/unit/product_usecase_test.go
+
+test-product-repository:
+	go test -v ./testing/unit/product_repository_test.go

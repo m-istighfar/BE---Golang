@@ -1,0 +1,22 @@
+all: false
+filename: mocks.go
+force-file-write: true
+formatter: goimports
+log-level: info
+structname: '{{.Mock}}{{.InterfaceName}}'
+pkgname: mocks
+recursive: false
+require-template-schema-exists: true
+template: testify
+template-schema: '{{.Template}}.schema.json'
+packages:
+  DRX_Test/internal/usecase:
+    config:
+      all: true
+      dir: internal/usecase/mocks
+      pkgname: mocks
+  DRX_Test/internal/repository:
+    config:
+      all: true
+      dir: internal/repository/mocks
+      pkgname: mocks
